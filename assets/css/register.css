@@ -279,10 +279,9 @@
 }
 
 #main-area .background-main .register-area {
-  display: flex;
-  justify-content: center;
   width: 635px;
   height: 710px;
+  text-align: center;
 }
 
 #main-area .background-main .add-info {
@@ -303,8 +302,30 @@
   font-family: Jost;
 }
 
-#main-area .background-main .add-info .top-title a {
+#main-area .background-main .register-area .add-info .top-title a {
   font-size: 16px;
   font-family: Jost;
   text-decoration: none;
+}
+
+#main-area .background-main .register-area .register-icons button {
+  background-color: white;
+}
+
+#main-area .background-main .register-area .register-icons .google {
+  width: 250px;
+  height: 55px;
+  border: 1px solid black;
+}
+
+#main-area .background-main .register-area .register-icons .fb {
+  width: 95px;
+  height: 55px;
+  border: 1px solid black;
+}
+
+#main-area .background-main .register-area .register-icons .apple {
+  width: 95px;
+  height: 55px;
+  border: 1px solid black;
 }
