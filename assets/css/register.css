@@ -1,0 +1,310 @@
+.header-up {
+  border-bottom: 1px solid rgba(1, 15, 28, 0.1);
+}
+
+.header-up .left-up {
+  display: flex;
+  padding: 9px;
+}
+
+.header-up .left-up .followers span {
+  font-size: 15px;
+  font-family: Jost;
+  border-right: 1px solid rgba(1, 15, 28, 0.1);
+  padding-right: 15px;
+}
+
+.header-up .left-up .followers span:nth-child(1) {
+  border-right: 1px solid rgba(1, 15, 28, 0.1);
+  margin-right: 15px;
+}
+
+.header-up .left-up .followers span i {
+  font-size: 15px;
+  color: #0989ff;
+}
+
+.header-up .left-up .phone span {
+  font-size: 15px;
+  font-family: Jost;
+}
+
+.header-up .left-up .phone span i {
+  font-size: 15px;
+  color: #0989ff;
+  padding-right: 5px;
+}
+
+.header-up .right-up {
+  display: flex;
+  float: right;
+  padding: 9px;
+}
+
+@font-face {
+  font-family: Jost;
+  src: url(./../fonts/Jost-VariableFont_wght.ttf);
+}
+
+.header-up .right-up span {
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  padding: 7px;
+  padding-right: 15px;
+  margin-right: 17px;
+  font-family: Jost;
+  cursor: pointer;
+}
+
+.header-up .right-up .lang span {
+  border-right: 1px solid rgba(1, 15, 28, 0.1);
+}
+
+.header-up .right-up .currency span {
+  border-right: 1px solid rgba(1, 15, 28, 0.1);
+}
+
+.header-up .right-up span i {
+  padding-left: 5px;
+}
+
+.header-down .left-down {
+  display: flex;
+}
+
+.header-down .menu ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header-down {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-down .menu ul li {
+  font-size: 16px;
+  font-family: Jost;
+}
+
+.header-down .menu ul li i {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.header-down .right-down .search {
+  width: 360px;
+  height: 45px;
+  background-color: rgb(243, 243, 243);
+}
+
+.header-down .right-down .search i {
+  font-size: 20px;
+  color: rgb(148, 148, 148);
+  padding-left: 30px;
+}
+
+.header-down .right-down .search input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 285px;
+  height: 44px;
+  padding-left: 20px;
+  font-family: Jost;
+}
+
+.footer-up {
+  background: #f4f7f9;
+  height: 440px;
+  margin-top: 100px;
+}
+
+.footer-up .logo-title {
+  padding-top: 95px;
+}
+
+.footer-up .logo-title .logo-img {
+  width: 135px;
+  height: 35px;
+}
+
+.footer-up .footer-menu {
+  padding-top: 95px;
+}
+
+.footer-up .for-contact {
+  padding-top: 95px;
+}
+
+.footer-up .logo-title .logo-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-up .logo-title span {
+  font-size: 18px;
+  display: inline-block;
+  width: 320px;
+  height: 77px;
+  margin-top: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.footer-up .social-icons button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  transition: 0.5s all;
+  box-shadow: 0 1px 1px #010f1c33;
+  margin-right: 7px;
+  background: white;
+}
+
+.footer-up .social-icons button:hover {
+  background: #007aff;
+  color: white;
+}
+
+.footer-up .footer-menu {
+  display: flex;
+  gap: 100px;
+}
+
+.footer-up .footer-menu h4 {
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-family: Jost;
+}
+
+.footer-up .footer-menu ul li {
+  font-weight: 500;
+  font-family: Jost;
+  color: #55585b;
+  font-size: 15px;
+}
+
+.footer-up .for-contact h4 {
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-family: Jost;
+}
+
+.footer-up .for-contact {
+  float: right;
+}
+
+.footer-up .for-contact span {
+  font-family: Jost;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.footer-up .for-contact p {
+  font-weight: 500;
+  font-size: 22px;
+  font-family: Jost;
+}
+
+.line {
+  border-bottom: 1px solid #55585b;
+  padding-top: 119px;
+}
+
+.footer-down {
+  height: 90px;
+  background: #f4f7f9;
+}
+
+.footer-down .title {
+  font-size: 16px;
+  font-family: Jost;
+  padding-top: 18px;
+}
+
+.footer-down .title a {
+  text-decoration: none;
+}
+
+.footer-down .footer-pay {
+  float: right;
+  padding-top: 18px;
+}
+
+#main-area .up-title {
+  height: 220px;
+}
+
+#main-area .up-title h3 {
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#main-area .up-title p {
+  font-family: Jost;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+}
+
+#main-area .background-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-area .background-main .left-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-area .background-main .right-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-area .background-main .register-area {
+  display: flex;
+  justify-content: center;
+  width: 635px;
+  height: 710px;
+}
+
+#main-area .background-main .add-info {
+  box-shadow: 0 30px 70px #010f1c1a;
+  background-color: var(--tp-common-white);
+}
+
+#main-area .background-main .add-info .top-title h3 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+
+#main-area .background-main .add-info .top-title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #49535b;
+  font-family: Jost;
+}
+
+#main-area .background-main .add-info .top-title a {
+  font-size: 16px;
+  font-family: Jost;
+  text-decoration: none;
+}
