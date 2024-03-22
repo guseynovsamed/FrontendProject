@@ -33,17 +33,21 @@
               </div>
             </div>
             <div class="col-6">
-              <div class="right-up">
+              <!-- <div class="right-up">
                 <div class="lang">
-                  <span>English<i class="fa-solid fa-chevron-down"></i></span>
-                  <ul class="d-none">
+                  <ul>
+                    <li>English<i class="fa-solid fa-chevron-down"></i></li>
+                  </ul>
+                  <ul class="lang-check">
                     <li>Spanish</li>
                     <li>Russian</li>
                     <li>Portuguese</li>
                   </ul>
                 </div>
                 <div class="currency">
-                  <span>USD<i class="fa-solid fa-chevron-down"></i></span>
+                  <ul>
+                    <li>USD<i class="fa-solid fa-chevron-down"></i></li>
+                  </ul>
                   <ul class="d-none">
                     <li>EUR</li>
                     <li>CHF</li>
@@ -52,7 +56,9 @@
                   </ul>
                 </div>
                 <div class="options">
-                  <span>Setting<i class="fa-solid fa-chevron-down"></i></span>
+                  <ul>
+                    <li>Setting<i class="fa-solid fa-chevron-down"></i></li>
+                  </ul>
                   <ul class="d-none">
                     <li>My Profile</li>
                     <li>Spanish</li>
@@ -60,8 +66,61 @@
                     <li>Logout</li>
                   </ul>
                 </div>
-              </div>
+              </div> -->
+              <div class="header-right">
+                <div class="language-area">
+                    <div class="language">
+                        <ul>
+                            <li><a href="">English
+                                    <i class="fa-solid fa-chevron-down"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="language-list list d-none">
+                        <ul>
+                            <li><a href="">Spanish</a></li>
+                            <li><a href="">Russian</a></li>
+                            <li><a href="">Portuguese</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="currency-area">
+                    <div class="currency">
+                        <ul>
+                            <li><a href="">USD
+                                    <i class="fa-solid fa-chevron-down lang-open lang-close"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="currency-list list d-none">
+                        <ul>
+                            <li><a href="">EUR</a></li>
+                            <li><a href="">CHF</a></li>
+                            <li><a href="">GBP</a></li>
+                            <li><a href="">KWD</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="setting-area">
+                    <div class="setting">
+                        <ul>
+                            <li><a href="">Setting
+                                    <i class="fa-solid fa-chevron-down lang-open lang-close"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="setting-list list d-none">
+                        <ul>
+                            <li><a href="">My Profile</a></li>
+                            <li><a href="">Wishlist</a></li>
+                            <li><a href="">Cart</a></li>
+                            <li><a href="">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -86,7 +145,7 @@
               </div>
             </div>
             <div class="col-6">
-              <div class="right-down">
+              <div class="right-down d-flex">
                 <div class="search">
                   <input
                     type="text"
@@ -95,7 +154,19 @@
                   />
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <div class="basket"></div>
+                <div class="basket">
+                  <div class="arrow">
+                    <img src="./assets/img/svgexport-4 (1).svg" alt="" />
+                  </div>
+                  <div class="favorites">
+                    <img src="./assets/img/svgexport-5 (1).svg" alt="" />
+                    <span>0</span>
+                  </div>
+                  <div class="basket-card">
+                    <img src="./assets/img/svgexport-6.svg" alt="" />
+                    <span>0</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -109,6 +180,7 @@
           <span>Home</span>
           <span>Blog</span>
         </div>
+        <div class="title"></div>
         <div class="opa"></div>
       </div>
       <section id="post-box">
@@ -278,7 +350,8 @@
                 <span>Got Questions? Call us </span>
                 <p>+670 413 90 762</p>
                 <span
-                  ><i class="fa-regular fa-envelope"></i>shofy@support.com</span
+                  ><i class="fa-regular fa-envelope"></i>
+                  shofy@support.com</span
                 >
                 <p>
                   <i class="fa-solid fa-location-dot"></i>
@@ -317,5 +390,6 @@
       src="https://kit.fontawesome.com/15e4433beb.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/navbar.js"></script>
   </body>
 </html>

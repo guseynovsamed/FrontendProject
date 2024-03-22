@@ -41,6 +41,51 @@
   src: url(./../fonts/Jost-VariableFont_wght.ttf);
 }
 
+/* .header-up .right-up {
+    float: right;
+    display: flex;
+  }
+  
+  .header-up .right-up ul {
+    list-style: none;
+    text-align: start;
+  }
+  
+  .header-up .right-up .lang .lang-check {
+    position: absolute;
+    list-style: none;
+    left: 0;
+    margin-top: 9px;
+    z-index: 1111;
+    background: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-right: 9px;
+    box-shadow: 0 1px 1px #010f1c33;
+  }
+  
+  .header-up .right-up .lang {
+    position: relative;
+  }
+  
+  .header-up .right-up li {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Jost;
+    cursor: pointer;
+  }
+  
+  .header-up .right-up .lang ul li {
+    border-right: 1px solid rgba(1, 15, 28, 0.1);
+  }
+  
+  .header-up .right-up .currency ul {
+    border-right: 1px solid rgba(1, 15, 28, 0.1);
+  }
+  
+  .header-up .right-up li i {
+    padding-left: 5px;
+  } */
+
 .header-up .header-right {
   float: right;
   display: flex;
@@ -359,8 +404,40 @@
   font-weight: 500;
   font-family: Jost;
   color: #55585b;
-  font-size: 15px;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s all;
 }
+
+.footer-up .footer-menu ul li:hover {
+  color: #007aff;
+}
+
+/* #footer-area .account ul li{
+    margin-bottom: 7px;
+    list-style: none;
+  }
+  
+  #footer-area .account ul li a{
+    text-decoration:  none;
+    font-size: 14px;
+    font-weight: 500;
+    color:#55585b;
+    position: relative;
+    padding-left: 10px
+  }
+  
+  #footer-area .account ul li a::after{
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 6px;
+  width: 3px;
+  height: 3px;
+  background-color: #55585b;
+  border-radius: 50%;
+  } */
 
 .footer-up .for-contact h4 {
   font-weight: 500;
@@ -483,6 +560,11 @@
 
 #main-area .background-main .register-area .register-icons button {
   background-color: white;
+  transition: 0.5s all;
+}
+
+#main-area .background-main .register-area .register-icons button:hover {
+  border: 1px solid black;
 }
 
 #main-area .background-main .register-area .register-icons .google {
@@ -610,6 +692,7 @@
   position: relative;
   width: 515px;
   height: 26px;
+  justify-content: space-between;
 }
 
 .check-contract p {
@@ -628,10 +711,43 @@
   border: none;
 }
 
+.check-contract a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  color: #007aff;
+  font-family: Jost;
+}
+
 #main-area .background-main .register-area .add-datas button {
   width: 515px;
   height: 55px;
   color: white;
   background: black;
   font-weight: 500;
+  border: none;
+  transition: 0.5s all;
+}
+
+#main-area .background-main .register-area .add-datas button:hover {
+  background-color: #007aff;
+}
+
+.google p {
+  font-size: 16px;
+  font-family: Jost;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 14px;
+  gap: 10px;
+}
+
+.fb i {
+  color: #007aff;
+  font-size: 22px;
+}
+
+.apple i {
+  font-size: 22px;
 }
