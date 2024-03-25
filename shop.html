@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/shop.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-up">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="left-up">
+                <div class="followers">
+                  <span
+                    ><i class="fa-brands fa-facebook-f"></i> 7500k
+                    Followers</span
+                  >
+                </div>
+                <div class="phone">
+                  <span>
+                    <i class="fa-solid fa-phone-volume"></i>+(402) 763 282 46
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="header-right">
+                <div class="language-area">
+                  <div class="language">
+                    <ul>
+                      <li>
+                        <a href=""
+                          >English <i class="fa-solid fa-chevron-down"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="language-list list d-none">
+                    <ul>
+                      <li><a href="">Spanish</a></li>
+                      <li><a href="">Russian</a></li>
+                      <li><a href="">Portuguese</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="currency-area">
+                  <div class="currency">
+                    <ul>
+                      <li>
+                        <a href=""
+                          >USD
+                          <i
+                            class="fa-solid fa-chevron-down lang-open lang-close"
+                          ></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="currency-list list d-none">
+                    <ul>
+                      <li><a href="">EUR</a></li>
+                      <li><a href="">CHF</a></li>
+                      <li><a href="">GBP</a></li>
+                      <li><a href="">KWD</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="setting-area">
+                  <div class="setting">
+                    <ul>
+                      <li>
+                        <a href=""
+                          >Setting
+                          <i
+                            class="fa-solid fa-chevron-down lang-open lang-close"
+                          ></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="setting-list list d-none">
+                    <ul>
+                      <li><a href="">My Profile</a></li>
+                      <li><a href="">Wishlist</a></li>
+                      <li><a href="">Cart</a></li>
+                      <li><a href="">Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-down">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="left-down">
+                <div class="logo">
+                  <img src="./assets/img/logo.svg" alt="" />
+                </div>
+                <div class="menu">
+                  <ul>
+                    <li>Home<i class="fa-solid fa-chevron-down"></i></li>
+                    <li>Shop<i class="fa-solid fa-chevron-down"></i></li>
+                    <li>Products<i class="fa-solid fa-chevron-down"></i></li>
+                    <li>Coupons</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="right-down d-flex">
+                <div class="search">
+                  <input
+                    type="text"
+                    placeholder="Search for Products...
+                  "
+                  />
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="basket">
+                  <div class="arrow">
+                    <img src="./assets/img/svgexport-4 (1).svg" alt="" />
+                  </div>
+                  <div class="favorites">
+                    <img src="./assets/img/svgexport-5 (1).svg" alt="" />
+                    <span>0</span>
+                  </div>
+                  <div class="basket-card">
+                    <img src="./assets/img/svgexport-6.svg" alt="" />
+                    <span>0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="main-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <div class="price-filter">
+                <div class="up-title">
+                  <h3>Shop Grid</h3>
+                  <a href="">Home</a>
+                  <span>Shop Grid</span>
+                </div>
+                <div class="interval-price">
+                  <h3>Price Filter</h3>
+                </div>
+                <div class="product-status">
+                  <h3>Product Status</h3>
+                  <ul>
+                    <li>
+                      <input type="checkbox" />
+                      <span>On Sale</span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <input type="checkbox" />
+                      <span>In Stock</span>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <input type="checkbox" />
+                      <span>Out of stock</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="categories">
+                  <h3>Categories</h3>
+                  <div class="cate-menu">
+                    <ul>
+                      <li>
+                        Headphones
+                        <span>3</span>
+                      </li>
+                      <li>
+                        Mobile Tablets
+                        <span>3</span>
+                      </li>
+                      <li>
+                        CPU Heat Pipes
+                        <span>2</span>
+                      </li>
+                      <li>
+                        Smart Watch
+                        <span>3</span>
+                      </li>
+
+                      <li>
+                        Bluetooth
+                        <span>2</span>
+                      </li>
+                      <li>
+                        Clothing
+                        <span>4</span>
+                      </li>
+                      <li>
+                        Bags
+                        <span>4</span>
+                      </li>
+                      <li>
+                        Shoes
+                        <span>1</span>
+                      </li>
+                      <li>
+                        Discover Skincare
+                        <span>2</span>
+                      </li>
+                      <li>
+                        Beauty of Skin
+                        <span>4</span>
+                      </li>
+                      <li>
+                        Awesome Lip Care
+                        <span>3</span>
+                      </li>
+                      <li>
+                        Facial Care
+                        <span>5</span>
+                      </li>
+                      <li>
+                        Bracelets
+                        <span>2</span>
+                      </li>
+                      <li>
+                        Earrings
+                        <span>4</span>
+                      </li>
+                      <li>
+                        Necklaces
+                        <span>2</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="top-product">
+                  <h3>Top Rated Products</h3>
+                  <div class="detail">
+                    <div class="detail-img">
+                      <img src="./assets/img/shop/headphone-5.png" alt="" />
+                    </div>
+                    <div class="text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i><span>(5)</span>
+                      <h4><a href="">Gaming Headphone</a></h4>
+                      <span>$130.00</span>
+                    </div>
+                  </div>
+                  <div class="detail">
+                    <div class="detail-img">
+                      <img src="./assets/img/shop/ipad-1.png" alt="" />
+                    </div>
+                    <div class="text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i><span>(5)</span>
+                      <h4><a href="">Apple iPad Air</a></h4>
+                      <span>$999.00</span>
+                    </div>
+                  </div>
+                  <div class="detail">
+                    <div class="detail-img">
+                      <img src="./assets/img/shop/cpu-1.png" alt="" />
+                    </div>
+                    <div class="text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i><span>(5)</span>
+                      <h4><a href="">DeepCool Air Cooler</a></h4>
+                      <span>$80.00</span>
+                    </div>
+                  </div>
+                  <div class="detail">
+                    <div class="detail-img">
+                      <img src="./assets/img/shop/cpu-5.png" alt="" />
+                    </div>
+                    <div class="text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i><span>(5)</span>
+                      <h4><a href="">Antec Air Cooler</a></h4>
+                      <span>$80.00</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="brand-area">
+                  <h3>Popular Brands</h3>
+                  <div class="brands">
+                    <div class="brand-left">
+                      <img src="./assets/img/shop/brand-1.png" alt="" />
+                      <img src="./assets/img/shop/brand-3.png" alt="" />
+                      <img src="./assets/img/shop/brand-5.png" alt="" />
+                      <img src="./assets/img/shop/brand-7.png" alt="" />
+                    </div>
+                    <div class="brand-right">
+                      <img src="./assets/img/shop/brand-2.png" alt="" />
+                      <img src="./assets/img/shop/brand-4.png" alt="" />
+                      <img src="./assets/img/shop/brand-6.png" alt="" />
+                      <img src="./assets/img/shop/brand-8.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="reset">
+                  <h3>Reset Filter</h3>
+                  <button class="reset-btn">Reset Filter</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="products">
+                <div class="filter-area">
+                  <div class="show-stlye">
+                    <button>
+                      <img src="./assets/img/shop/svgexport-10.svg" alt="" />
+                    </button>
+                    <button>
+                      <img src="./assets/img/shop/svgexport-11.svg" alt="" />
+                    </button>
+                    <span>Showing 1–9 of 25 results</span>
+                  </div>
+                  <div class="sort">
+                    <ul>
+                      <li>
+                        Default Sorting <i class="fa-solid fa-chevron-down"></i>
+                      </li>
+                    </ul>
+                    <ul class="check-sort open">
+                      <li>Default Sorting</li>
+                      <li>Low to Hight</li>
+                      <li>High to Low</li>
+                      <li>On Sale</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="carts">
+                  <div class="cart1">
+                    <div class="cart1-img">
+                      <img src="./assets/img/shop/ipad-1.png" alt="" />
+                      <div class="cart1-basket">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-eye"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <a href="">Mobile Tablets</a>
+                    <h3>Apple iPad Air</h3>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card1-price">
+                      <span>$999</span>
+                      <span>$949.05 </span>
+                    </div>
+                  </div>
+                  <div class="cart1">
+                    <div class="cart1-img">
+                      <img src="./assets/img/shop/headphone-1.png" alt="" />
+                      <div class="cart1-basket">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-eye"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <a href="">Headphones</a>
+                    <h3>Headphones Wireless.</h3>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card1-price">
+                      <span>$120</span>
+                      <span>$103.20 </span>
+                    </div>
+                  </div>
+                  <div class="cart1">
+                    <div class="cart1-img">
+                      <img src="./assets/img/shop/headphone-5.png" alt="" />
+                      <div class="cart1-basket">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-eye"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <a href="">Headphones</a>
+                    <h3>Gaming Headphone</h3>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card1-price">
+                      <span>$130</span>
+                      <span>$123.50 </span>
+                    </div>
+                  </div>
+                  <div class="cart1">
+                    <div class="cart1-img">
+                      <img src="./assets/img/shop/mobile-1.png" alt="" />
+                      <div class="cart1-basket">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-eye"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <a href="">Mobile Tablets</a>
+                    <h3>Galaxy Android Tablet</h3>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card1-price">
+                      <span>$320</span>
+                      <span>$288.00 </span>
+                    </div>
+                  </div>
+                  <div class="cart1">
+                    <div class="cart1-img">
+                      <img src="./assets/img/shop/mobile-5.png" alt="" />
+                      <div class="cart1-basket">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-eye"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <a href="">Mobile Tablets</a>
+                    <h3>iPhone 14 Pro</h3>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card1-price">
+                      <span>$1199</span>
+                      <span>$1019.15</span>
+                    </div>
+                  </div>
+                  <div class="cart1">
+                    <div class="cart1-img">
+                      <img src="./assets/img/shop/watch-1.png" alt="" />
+                      <div class="cart1-basket">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-eye"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <a href="">Smart Watch</a>
+                    <h3>Apple Watch Sport Band</h3>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card1-price">
+                      <span>$449</span>
+                      <span>$426.55 </span>
+                    </div>
+                  </div>
+                  <div class="cart1">
+                    <div class="cart1-img">
+                      <img src="./assets/img/shop/watch-5.png" alt="" />
+                      <div class="cart1-basket">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-eye"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <a href="">Smart Watch</a>
+                    <h3>Sony Smart Watch</h3>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card1-price">
+                      <span>$200</span>
+                      <span>$190.00 </span>
+                    </div>
+                  </div>
+                  <div class="cart1">
+                    <div class="cart1-img">
+                      <img src="./assets/img/shop/watch-9.png" alt="" />
+                      <div class="cart1-basket">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-eye"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <a href="">Smart Watch</a>
+                    <h3>Sony Lady Fitness Watch</h3>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card1-price">
+                      <span>$150</span>
+                      <span>$145.50 </span>
+                    </div>
+                  </div>
+                  <div class="cart1">
+                    <div class="cart1-img">
+                      <img src="./assets/img/shop/blutooth-4.png" alt="" />
+                      <div class="cart1-basket">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-eye"></i>
+                        </button>
+                        <button>
+                          <i class="fa-regular fa-heart"></i>
+                        </button>
+                        <button>
+                          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <a href="">Bluetooth</a>
+                    <h3>Lenovo Wireless Bluetooth</h3>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i
+                      ><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card1-price">
+                      <span>$70</span>
+                      <span>$66.50 </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="page">
+                  <button>1</button>
+                  <button>2</button>
+                  <button>3</button>
+                  <button><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-up">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="logo-title">
+                <div class="logo-img">
+                  <img src="./assets/img/logo.svg" alt="" />
+                </div>
+                <span>
+                  We are a team of designers and developers that create high
+                  quality WordPress
+                </span>
+              </div>
+              <div class="social-icons">
+                <button><i class="fa-brands fa-facebook-f"></i></button>
+                <button><i class="fa-brands fa-twitter"></i></button>
+                <button><i class="fa-brands fa-linkedin-in"></i></button>
+                <button><i class="fa-brands fa-vimeo-v"></i></button>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="footer-menu">
+                <div class="account">
+                  <h4>My Account</h4>
+                  <ul>
+                    <li>Track Orders</li>
+                    <li>Shipping</li>
+                    <li>Wishlist</li>
+                    <li>My Account</li>
+                    <li>Order History</li>
+                    <li>Returns</li>
+                  </ul>
+                </div>
+                <div class="information">
+                  <h4>Infomation</h4>
+                  <ul>
+                    <li>Our Story</li>
+                    <li>Careers</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Latest News</li>
+                    <li>Contact Us</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="for-contact">
+                <h4>Talk To Us</h4>
+                <span>Got Questions? Call us </span>
+                <p>+670 413 90 762</p>
+                <span
+                  ><i class="fa-regular fa-envelope"></i>shofy@support.com</span
+                >
+                <p>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>
+                    79 Sleepy Hollow St.br <br />
+                    Jamaica, New York 1432
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-down">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="title">
+                <p>
+                  © 2024 All Rights Reserved | Angular Template by
+                  <a href="">Themepure.</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="footer-pay">
+                <img src="./assets/img/footer-pay.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/15e4433beb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/shop.js"></script>
+  </body>
+</html>
