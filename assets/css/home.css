@@ -703,3 +703,413 @@ body {
   letter-spacing: -0.02em;
   color: #007aff;
 }
+
+#trending-products .title-category .title {
+  position: relative;
+  margin-top: 90px;
+}
+#trending-products .title-category .title h3 {
+  font-size: 36px;
+  color: #021d35;
+  position: relative;
+  z-index: 1;
+}
+
+#trending-products .title-category .title img {
+  position: absolute;
+  top: 20px;
+}
+
+#trending-products .title-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+#trending-products .category {
+  float: right;
+}
+#trending-products .category ul {
+  list-style: none;
+  display: flex;
+  margin-top: 90px;
+}
+
+#trending-products .category ul li {
+  margin-right: 47px;
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+}
+
+#trending-products .category ul li img {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+#trending-products .title-category .line {
+  position: absolute;
+  width: 1px;
+  height: 521px !important;
+  background-color: black;
+  rotate: 90deg;
+  transform: translateX(40px);
+}
+
+#trending-products .banner {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+#trending-products .banner .left-banner {
+  width: 856px;
+  height: 260px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+#trending-products .banner .left-banner img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+#trending-products .banner .left-banner:hover img {
+  transform: scale(1.1);
+}
+
+#trending-products .banner .left-banner .banner-text {
+  position: absolute;
+  top: 60px;
+  left: 55px;
+}
+
+#trending-products .banner .left-banner .banner-text span {
+  font-size: 16px;
+  color: black;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#trending-products .banner .left-banner .banner-text h3 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.29;
+  margin-bottom: 22px;
+}
+
+#trending-products .banner .left-banner .banner-text a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+  color: black;
+  padding-right: 5px;
+}
+
+#trending-products .banner .left-banner .banner-text a:hover i {
+  transform: translateX(15px);
+}
+
+#trending-products .banner .left-banner .banner-text a:hover {
+  color: #007aff;
+}
+
+#trending-products .banner .left-banner .banner-text i {
+  transition: all 0.5s;
+}
+
+#trending-products .banner .right-banner {
+  width: 416px;
+  height: 260px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+#trending-products .banner .right-banner img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+#trending-products .banner .right-banner:hover img {
+  transform: scale(1.1);
+}
+
+#trending-products .banner .right-banner .banner-text {
+  position: absolute;
+  top: 60px;
+  left: 55px;
+}
+
+#trending-products .banner .right-banner .banner-text p {
+  font-size: 16px;
+  color: black;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 31px;
+}
+
+#trending-products .banner .right-banner .banner-text h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.3;
+  margin-bottom: 5px;
+}
+
+#trending-products .banner .right-banner .banner-text a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+  color: black;
+  padding-right: 5px;
+}
+
+#trending-products .banner .right-banner .banner-text a:hover i {
+  transform: translateX(15px);
+}
+
+#trending-products .banner .right-banner .banner-text a:hover {
+  color: #007aff;
+}
+
+#trending-products .banner .right-banner .banner-text i {
+  transition: all 0.5s;
+}
+
+.product-slider {
+  width: 100%;
+  height: 740px;
+  background: magenta;
+}
+
+#gadgest-electronics {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+#gadgest-electronics .electron-product {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+#gadgest-electronics .electron-product .cart {
+  width: 270px;
+  height: 475px;
+  background-color: #ffffff;
+  border: 1px solid #eaebed;
+  border-radius: 8px;
+  transition: all 0.5s;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+#gadgest-electronics .electron-product .cart:hover {
+  box-shadow: 0 4px 10px #010f1c24;
+}
+
+#gadgest-electronics .electron-product .cart .cart-img {
+  width: 305px;
+  height: 350px;
+  border-bottom: 1px solid #eaebed;
+  position: relative;
+  overflow: hidden;
+}
+
+#gadgest-electronics .electron-product .cart .cart-img .hover-but {
+  position: absolute;
+  top: 190px;
+  right: 65px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px #010f1c24;
+  border-radius: 4px;
+  transform: translateX(80px);
+  transition: all 0.5s;
+}
+
+#gadgest-electronics .electron-product .cart:hover .cart-img .hover-but {
+  transform: translateX(0px);
+}
+
+#gadgest-electronics .electron-product .cart .cart-img .hover-but button {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #010f1c;
+  background-color: #ffffff;
+  border: 1px solid #eaebed;
+  border-bottom: 0;
+  transition: all 0.5s;
+}
+
+#gadgest-electronics .electron-product .cart .cart-img .hover-but button:hover {
+  background: #007aff;
+  color: white;
+}
+
+#gadgest-electronics .electron-product .cart .cart-img img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  position: relative;
+}
+
+#gadgest-electronics .electron-product .cart:hover .cart-img img {
+  transform: scale(1.1);
+}
+
+#gadgest-electronics .electron-product .cart .cart-text {
+  padding: 10px 30px 20px;
+}
+#gadgest-electronics .electron-product .cart .cart-text a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  color: #767a7d;
+}
+
+#gadgest-electronics .electron-product .cart .cart-text h3 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.33;
+  margin-bottom: 7px;
+}
+
+#gadgest-electronics .electron-product .cart .cart-text .stars {
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+}
+
+#gadgest-electronics .electron-product .cart .cart-text .stars i {
+  color: #ffb21d;
+  font-size: 12px;
+}
+
+#gadgest-electronics .electron-product .cart .cart-text .stars span {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#gadgest-electronics .electron-product .cart .cart-text .price :nth-child(1) {
+  color: #55585b;
+  font-size: 12px;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+#gadgest-electronics .electron-product .cart .cart-text .price :nth-child(2) {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  color: #007aff;
+}
+
+#gadgest-electronics .left-banner {
+  position: sticky;
+  top: 73px;
+}
+
+#gadgest-electronics .up-banner {
+  overflow: hidden;
+  position: relative;
+  border: 3px solid #ff3494;
+  border-radius: 8px;
+  padding: 37px 40px;
+  margin-bottom: 10px;
+}
+
+#gadgest-electronics .up-banner .left-text h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 22px;
+}
+
+#gadgest-electronics .up-banner .left-text h3::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 150px;
+  height: 1px;
+  background-color: #007aff;
+  bottom: 0;
+}
+
+#gadgest-electronics .up-banner .left-text ul {
+  margin-bottom: 27px;
+}
+
+#gadgest-electronics .up-banner .left-text ul li {
+  line-height: 1;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#gadgest-electronics .up-banner .left-text ul li:hover {
+  color: #007aff;
+}
+
+#gadgest-electronics .up-banner .left-text a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+  color: black;
+}
+
+#gadgest-electronics .up-banner .left-text a i {
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+#gadgest-electronics .up-banner .left-text a:hover i {
+  transform: translateX(10px);
+}
+
+#gadgest-electronics .up-banner .left-text a:hover {
+  color: #007aff;
+}
+
+#gadgest-electronics .up-banner .right-img {
+  position: absolute;
+  bottom: 0;
+  right: -15px;
+}
+
+#gadgest-electronics .down-banner {
+  width: 356px;
+  height: 93px;
+  padding: 45px 30px 41px;
+}
+
+#gadgest-electronics .down-banner .down-banner-img {
+  position: relative;
+}
+
+#gadgest-electronics .down-banner .down-banner-img img {
+  position: absolute;
+}
+
+#gadgest-electronics .down-banner span {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  animation-delay: 0.1s;
+  animation-duration: 1s;
+  z-index: 11111;
+}
